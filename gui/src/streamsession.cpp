@@ -168,6 +168,18 @@ void StreamSession::HandleKeyboardEvent(QKeyEvent *event)
 		case Qt::Key::Key_X:
 			button_mask = CHIAKI_CONTROLLER_BUTTON_BOX;
 			break;
+		case Qt::Key::Key_P:
+			button_mask = CHIAKI_CONTROLLER_BUTTON_R1;
+			break;
+		case Qt::Key::Key_O:
+			button_mask = CHIAKI_CONTROLLER_BUTTON_L1;
+			break;
+		case Qt::Key::Key_L:
+			button_mask = CHIAKI_CONTROLLER_BUTTON_R2;
+			break;
+		case Qt::Key::Key_K:
+			button_mask = CHIAKI_CONTROLLER_BUTTON_L2;
+			break;
 		case Qt::Key::Key_C:
 		case Qt::Key::Key_BracketRight:
 			button_mask = CHIAKI_CONTROLLER_BUTTON_PYRAMID;
